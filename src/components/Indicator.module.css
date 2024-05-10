@@ -14,13 +14,13 @@
   .signalIndicator img {
     animation: pulse 1.5s infinite ease-in-out; /* Adjust duration and timing as needed */
     position: absolute;
-    top: 165px;
-    left:50px;
+    top: 110px;
+    left:25px;
   }
   .signalIndicator2 img {
     animation: pulse 1.5s infinite ease-in-out; /* Adjust duration and timing as needed */
     position: absolute;
-    top: 250px;
-    left:435px;
+    top: 175px;
+    left:310px;
   }
   

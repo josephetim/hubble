@@ -7,7 +7,7 @@ import Image from 'next/image';
 export default function SignalIndicator(props)  {
   return (
     <div className={props.angle ? styles.signalIndicator : styles.signalIndicator2}>
-      <Image src={props.angle ? indicatorImage : indicatorImage2} alt="Signal Indicator" />
+      <Image src={indicatorImage} alt="Signal Indicator" />
     </div>
   );
 };

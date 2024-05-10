@@ -31,7 +31,7 @@ export default function LandingPage() {
    
      
      
-     <div className="relative font-normal mt-28 text-7xl text-center leading-[64.8px] max-md:mt-10 max-md:max-w-full max-md:text-4xl">
+     <div className="relative font-normal mt-[200px] text-7xl text-center leading-[64.8px] max-md:mt-10 max-md:max-w-full max-md:text-4xl">
        Reach Thousands. Every Day. With Hubble{" "}
      </div>
      <div className="relative mt-9 text-3xl font-thin leading-9 text-center w-[1024px] max-md:max-w-full">
@@ -47,7 +47,7 @@ export default function LandingPage() {
      <div className="flex gap-5 max-md:flex-col max-md:gap-0">
        <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
          <div className="flex flex-col justify-center self-stretch my-auto text-white max-md:mt-10 max-md:max-w-full">
-           <div className="text-[64px] font-normal text-left leading-[57.6px] max-md:max-w-full max-md:text-4xl">
+           <div className="text-[64px] font-bold text-left leading-[57.6px] max-md:max-w-full max-md:text-4xl">
              What’s Hubble?
            </div>
            <div className="mt-6 font-normal text-[20px]  leading-8 max-md:max-w-full">
@@ -76,7 +76,7 @@ export default function LandingPage() {
    </div>
    <div className="flex align-center justify-center">
    <div className="flex flex-col justify-center self-center px-20 pt-14 pb-16 mt-36 w-full bg-[#1B1B1B] max-w-[1200px] rounded-[64px] max-md:px-5 max-md:mt-10 max-md:max-w-full">
-         <div className="self-center text-[72px] font-normal text-center text-white leading-[64.8px] max-md:max-w-full max-md:text-4xl">
+         <div className="self-center text-[72px] font-bold text-center text-white leading-[64.8px] max-md:max-w-full max-md:text-4xl">
            Why Choose Hubble?
          </div>
          <div className="mt-16 max-md:mt-10 max-md:max-w-full">
@@ -140,7 +140,7 @@ export default function LandingPage() {
        </div>
    </div>
    <div className="flex align-center justify-center mt-[144px]">
-   <div className="self-center text-7xl mb-[112px] font-normal text-center text-white leading-[65px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-10">
+   <div className="self-center text-7xl mb-[112px] font-bold text-center text-white leading-[65px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-10">
          Hubble: A better way to place ads that actually converts
        </div>
        
@@ -148,9 +148,9 @@ export default function LandingPage() {
    <div className="flex align-center justify-center">
    <div className="flex justify-center items-center px-16  w-full max-md:px-5 max-md:mt-10 max-md:max-w-full">
          <div className="w-full max-w-[1120px] max-md:max-w-full">
-           <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-             <div className="flex flex-col w-[37%] max-md:ml-0 max-md:w-full">
-               <div className="flex flex-col justify-center self-stretch my-auto text-white max-md:mt-10">
+           <div className="flex align-center justify-between max-md:flex-col max-md:gap-0">
+             <div className="flex flex-col w-[410px]  max-md:ml-0 max-md:w-[422px]">
+               <div className="flex flex-col w-[410px]  justify-center self-stretch my-auto text-white max-md:mt-10">
                  <div className="text-4xl font-bold leading-9 text-left">
                    Create Engaging Ads
                  </div>
@@ -162,12 +162,12 @@ export default function LandingPage() {
                  </div>
                </div>
              </div>
-             <div className="flex flex-col ml-5 w-[63%] max-md:ml-0 max-md:w-full">
+             <div className="flex flex-col ml-5 w-[512px] max-md:ml-0 max-md:w-full">
                <Image
                  alt="Maggi Ad"
                  loading="lazy"
                  src={maggiAd}
-                 className="grow w-full aspect-[1.23] max-md:mt-10 max-md:max-w-full"
+                 className="grow w-full aspect-[1.23] w-[512px] max-md:mt-10 max-md:max-w-[512px]"
                />
              </div>
            </div>
@@ -175,19 +175,19 @@ export default function LandingPage() {
        </div>
    </div>
    <div className="flex mt-[64px] align-center justify-center">
-   <div className="w-full  max-w-[1187px] max-md:max-w-full">
-         <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-           <div className="flex relative flex-col w-[60%] max-md:ml-0 max-md:w-full">
+   <div className="w-full  max-w-[1120px] max-md:max-w-full">
+         <div className="flex align-center justify-between max-md:flex-col max-md:gap-0">
+           <div className="flex relative flex-col w-[512px] max-md:ml-0 max-md:w-full">
              <Image
                alt="maps"
                loading="lazy"
                src={mapAd}
-               className="grow w-full aspect-[1.23] max-md:mt-10 max-md:max-w-full"
+               className="grow w-full aspect-[1.23] w-[512px] max-md:mt-10 max-md:max-w-[512px]"
              />
              <SignalIndicator angle={true}/>
              <SignalIndicator angle={false}/>
            </div>
-           <div className="flex flex-col ml-5 w-[40%] max-md:ml-0 max-md:w-full">
+           <div className="flex flex-col ml-5 w-[410px] max-md:ml-0 max-md:w-full">
              <div className="flex flex-col justify-center self-stretch my-auto text-white max-md:mt-10">
                <div className="text-4xl font-bold leading-9 text-left">
                  Reach a Larger Audience
@@ -207,8 +207,8 @@ export default function LandingPage() {
    </div>
    <div className="flex mt-[64px] align-center justify-center">
    <div className="w-full max-w-[1120px] max-md:max-w-full">
-         <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-           <div className="flex flex-col w-[37%] max-md:ml-0 max-md:w-full">
+         <div className="flex align-center justify-between max-md:flex-col max-md:gap-0">
+           <div className="flex flex-col w-[410px] max-md:ml-0 max-md:w-full">
              <div className="flex flex-col justify-center self-stretch my-auto text-white max-md:mt-10">
                <div className="text-4xl font-bold leading-9 text-left">
                  Weatherproof Tech
@@ -221,8 +221,8 @@ export default function LandingPage() {
                </div>
              </div>
            </div>
-           <div className="flex flex-col ml-5 w-[63%] max-md:ml-0 max-md:w-full">
-             <div className="flex flex-col grow justify-center w-full bg-neutral-900 rounded-[40px] max-md:mt-10 max-md:max-w-full">
+           <div className="flex flex-col ml-5 w-[512px] max-md:ml-0 max-md:w-full">
+             <div className="flex flex-col grow justify-center w-[500px]   max-md:mt-10 max-md:max-w-[500px]">
              <Image 
              alt="milo ad"
              src={miloAd}
@@ -235,7 +235,7 @@ export default function LandingPage() {
    </div>
    <div className="flex mt-[111.1px] mb-[72px] align-center justify-center">
    <div className="flex flex-col w-full max-w-[1200px] max-md:max-w-full">
-         <div className="mx-8 text-[72px] font-normal  text-center text-white leading-[64.8px] max-md:mr-2.5 max-md:max-w-full max-md:text-4xl">
+         <div className="mx-8 text-[72px] font-bold  text-center text-white leading-[64.8px] max-md:mr-2.5 max-md:max-w-full max-md:text-4xl">
            We’re in Lekki & Uyo, coming soon to you
          </div>
          <div className="justify-between mt-20 max-md:mt-10 max-md:max-w-full">
@@ -287,8 +287,8 @@ export default function LandingPage() {
          </div>
        </div>
    </div>
-   <div className="flex align-center justify-center mt-10">
-   <div className="flex flex-col justify-between items-center px-16 pt-20 pb-10 w-full text-xl font-medium leading-8 text-white bg-neutral-950 max-md:px-5 max-md:max-w-full">
+   <div className="flex align-center justify-center ">
+   <div className="flex flex-col justify-between items-center px-16 pt-20 pb-10 w-full text-xl font-medium leading-8 text-white bg-transparent max-md:px-5 max-md:max-w-full">
          <div className="flex gap-5 justify-between w-full max-w-[1200px] max-md:flex-wrap max-md:max-w-full">
            <div className="flex flex-col">
              <Image
