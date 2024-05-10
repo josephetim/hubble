@@ -11,6 +11,7 @@ import maggiAd from "@/assets/maggi-ad.png";
 import mapAd from "@/assets/map-ad.png";
 import miloAd from "@/assets/milo-ad.png";
 import uyo from "@/assets/uyo.png";
+import SignalIndicator from "@/components/Indicator";
 
 
 export default function LandingPage() {
@@ -175,13 +176,14 @@ export default function LandingPage() {
 <div className="flex mt-[64px] align-center justify-center">
 <div className="w-full  max-w-[1187px] max-md:max-w-full">
       <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-        <div className="flex flex-col w-[60%] max-md:ml-0 max-md:w-full">
+        <div className="flex relative flex-col w-[60%] max-md:ml-0 max-md:w-full">
           <Image
             alt="maps"
             loading="lazy"
             src={mapAd}
             className="grow w-full aspect-[1.23] max-md:mt-10 max-md:max-w-full"
           />
+          <SignalIndicator/>
         </div>
         <div className="flex flex-col ml-5 w-[40%] max-md:ml-0 max-md:w-full">
           <div className="flex flex-col justify-center self-stretch my-auto text-white max-md:mt-10">
