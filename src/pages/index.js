@@ -266,16 +266,16 @@ export default function LandingPage() {
       </div>
       <div className="flex flex-col justify-center p-14 mt-20 bg-blue-800 rounded-[48px] max-md:px-5 max-md:mt-10 max-md:max-w-full">
         <div className="flex gap-5 justify-between w-full max-md:flex-wrap max-md:max-w-full">
-          <div className="my-auto font-bold text-4xl font-bold leading-9 text-white max-md:max-w-full">
+          <div className="my-auto font-normal text-4xl leading-9 text-white max-md:max-w-full">
             Notify me when Hubble is in my city
           </div>
           <div className="flex gap-2 text-xl max-md:flex-wrap max-md:max-w-full">
-            <input className="items-start px-8 font-light pt-2.5 pb-4 font-medium text-gray-400 bg-white border border-gray-300 border-solid shadow-sm leading-[120%] rounded-[80px] max-md:px-5"
+            <input className="items-start px-8 font-light pt-2.5 pb-4 text-gray-400 bg-white border border-gray-300 border-solid shadow-sm leading-[120%] rounded-[80px] max-md:px-5"
             placeholder="Enter email address"
             />
               
             
-            <div className="justify-center font-normal text-center self-start px-6 pt-3 pb-4 font-bold text-white bg-blue-700 leading-[110%] rounded-[100px] max-md:px-3">
+            <div className="justify-center font-normal text-center self-start px-6 pt-3 pb-4 text-white bg-blue-700 leading-[110%] rounded-[100px] max-md:px-3">
               Notify Me
             </div>
           </div>
