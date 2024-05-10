@@ -283,7 +283,7 @@ export default function LandingPage() {
       </div>
     </div>
 </div>
-<div className="flex align-center justify-center">
+<div className="flex align-center justify-center mt-10">
 <div className="flex flex-col justify-between items-center px-16 pt-20 pb-10 w-full text-xl font-medium leading-8 text-white bg-neutral-950 max-md:px-5 max-md:max-w-full">
       <div className="flex gap-5 justify-between w-full max-w-[1200px] max-md:flex-wrap max-md:max-w-full">
         <div className="flex flex-col">
@@ -321,9 +321,7 @@ export default function LandingPage() {
       </div>
     </div>
 </div>
-<div className="flex align-center justify-center">
-    
-</div>
+
 
 </div>
    )
