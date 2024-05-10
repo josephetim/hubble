@@ -48,7 +48,7 @@ export default function LandingPage() {
         <div className="text-6xl font-bold text-left leading-[57.6px] max-md:max-w-full max-md:text-4xl">
           What’s Hubble?
         </div>
-        <div className="mt-6 font-light text-xl font-medium leading-8 max-md:max-w-full">
+        <div className="mt-6 font-light text-xl  leading-8 max-md:max-w-full">
           Hubble is a revolutionary mobile advertising platform that
           utilizes a network of taxis equipped with high-tech rooftop smart
           screens. These digital displays become vibrant billboards,
@@ -84,7 +84,7 @@ export default function LandingPage() {
               <div className="text-4xl font-bold leading-9 text-left">
                 Extensive Reach
               </div>
-              <div className="mt-2 font-light text-xl font-medium leading-8">
+              <div className="mt-2 font-light text-xl leading-8">
                 Hubble&apos;s expansive network of taxis guarantees maximum
                 visibility across busy city routes, reaching millions of
                 potential customers daily.
@@ -96,7 +96,7 @@ export default function LandingPage() {
               <div className="text-4xl font-bold leading-9 text-left">
                 Cost-Effective Ads
               </div>
-              <div className="mt-2 font-light text-xl font-medium leading-8">
+              <div className="mt-2 font-light text-xl  leading-8">
                 Hubble offers some of the best rates per view in the industry.
                 Get exceptional value for your advertising budget and stretch
                 your marketing funds further.
@@ -112,7 +112,7 @@ export default function LandingPage() {
               <div className="text-4xl font-bold leading-9 text-left">
                 Data-Driven Decisions
               </div>
-              <div className="mt-2 font-light text-xl font-medium leading-8">
+              <div className="mt-2 font-light text-xl leading-8">
                 Don&apos;t advertise blindly. Hubble provides valuable insights on
                 estimated commuters and trending events in your target areas.
                 Leverage this data to optimize your campaigns for maximum
@@ -125,7 +125,7 @@ export default function LandingPage() {
               <div className="text-4xl font-bold leading-9 text-left">
                 Targeted Visibility
               </div>
-              <div className="mt-2 font-light text-xl font-medium leading-8">
+              <div className="mt-2 font-light text-xl leading-8">
                 Go beyond traditional advertising. Hubble allows you to
                 hyper-target your campaigns by location and time. Reach your
                 ideal customers exactly when and where they are most receptive
@@ -152,7 +152,7 @@ export default function LandingPage() {
               <div className="text-4xl font-bold leading-9 text-left">
                 Create Engaging Ads
               </div>
-              <div className="mt-4 font-light text-xl font-medium leading-8">
+              <div className="mt-4 font-light text-xl leading-8">
                 Hubble supports a variety of media formats, including MP4
                 videos, GIFs, and high-resolution image slideshows. <br />
                 Capture attention with dynamic content that resonates with your
@@ -188,7 +188,7 @@ export default function LandingPage() {
             <div className="text-4xl font-bold leading-9 text-center">
               Reach a Larger Audience
             </div>
-            <div className="mt-4 font-light text-xl font-medium leading-8">
+            <div className="mt-4 font-light text-xl leading-8">
               We partner with location intelligence platforms to provide helpful
               insights on population, reach and district information about
               trending events and behavioural insights. Our Hubble routes are
