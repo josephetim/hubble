@@ -33,10 +33,10 @@ export default function Header() {
         className="shrink-0 my-auto max-w-full aspect-[3.45] w-[145px] max-sm:mx-auto"
       />
       <div className="flex gap-5 justify-between max-sm:ml-2">
-        <div className="justify-center font-light px-6 pt-3 pb-4 border border-white border-solid rounded-[100px] max-md:px-5">
+        <div className="justify-center font-normal px-6 pt-3 pb-4 border border-white border-solid rounded-[100px] max-md:px-5">
           Earn as a Driver
         </div>
-        <div className="justify-center font-light px-6 pt-3 pb-4 bg-blue-700 rounded-[100px] max-md:px-5">
+        <div className="justify-center font-normal px-6 pt-3 pb-4 bg-blue-700 rounded-[100px] max-md:px-5">
           Advertise with Hubble
         </div>
       </div>
