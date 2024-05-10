@@ -3,14 +3,14 @@ import "@/app/globals.css";
 import Header from "@/components/header";
 import background from "@/assets/hero-bg.png";
 import hubbleAd from "@/assets/hubble-ad.png";
-import lekki from "@/assets/lekki.jpg";
+import lekki from "@/assets/lekki.png";
 import message from "@/assets/message.png";
 import tel from "@/assets/tel.png"
 import logoWhite from "@/assets/logo-white.png";
 import maggiAd from "@/assets/maggi-ad.png";
 import mapAd from "@/assets/map-ad.png";
 import miloAd from "@/assets/milo-ad.png";
-import uyo from "@/assets/uyo.jpg";
+import uyo from "@/assets/uyo.png";
 
 
 export default function LandingPage() {
@@ -205,7 +205,7 @@ export default function LandingPage() {
       <div className="flex gap-5 max-md:flex-col max-md:gap-0">
         <div className="flex flex-col w-[37%] max-md:ml-0 max-md:w-full">
           <div className="flex flex-col justify-center self-stretch my-auto text-white max-md:mt-10">
-            <div className="text-4xl font-bold leading-9 text-center">
+            <div className="text-4xl font-bold leading-9 text-left">
               Weatherproof Tech
             </div>
             <div className="mt-4 text-xl font-light leading-8">
@@ -230,7 +230,7 @@ export default function LandingPage() {
 </div>
 <div className="flex align-center justify-center">
 <div className="flex flex-col w-full max-w-[1200px] max-md:max-w-full">
-      <div className="mx-8 text-7xl font-bold text-center text-white leading-[64.8px] max-md:mr-2.5 max-md:max-w-full max-md:text-4xl">
+      <div className="mx-8 text-7xl  text-center text-white leading-[64.8px] max-md:mr-2.5 max-md:max-w-full max-md:text-4xl">
         We’re in Lekki & Uyo, coming soon to you
       </div>
       <div className="justify-between mt-20 max-md:mt-10 max-md:max-w-full">
@@ -265,16 +265,16 @@ export default function LandingPage() {
       </div>
       <div className="flex flex-col justify-center p-14 mt-20 bg-blue-800 rounded-[48px] max-md:px-5 max-md:mt-10 max-md:max-w-full">
         <div className="flex gap-5 justify-between w-full max-md:flex-wrap max-md:max-w-full">
-          <div className="my-auto text-4xl font-bold leading-9 text-white max-md:max-w-full">
+          <div className="my-auto font-bold text-4xl font-bold leading-9 text-white max-md:max-w-full">
             Notify me when Hubble is in my city
           </div>
           <div className="flex gap-2 text-xl max-md:flex-wrap max-md:max-w-full">
-            <input className="items-start px-8 pt-2.5 pb-4 font-medium text-gray-400 bg-white border border-gray-300 border-solid shadow-sm leading-[120%] rounded-[80px] max-md:px-5"
+            <input className="items-start px-8 font-light pt-2.5 pb-4 font-medium text-gray-400 bg-white border border-gray-300 border-solid shadow-sm leading-[120%] rounded-[80px] max-md:px-5"
             placeholder="Enter email address"
             />
               
             
-            <div className="justify-center text-center self-start px-6 pt-3 pb-4 font-bold text-white bg-blue-700 leading-[110%] rounded-[100px] max-md:px-3">
+            <div className="justify-center font-normal text-center self-start px-6 pt-3 pb-4 font-bold text-white bg-blue-700 leading-[110%] rounded-[100px] max-md:px-3">
               Notify Me
             </div>
           </div>
