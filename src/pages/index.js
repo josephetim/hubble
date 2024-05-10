@@ -183,7 +183,8 @@ export default function LandingPage() {
             src={mapAd}
             className="grow w-full aspect-[1.23] max-md:mt-10 max-md:max-w-full"
           />
-          <SignalIndicator/>
+          <SignalIndicator angle={true}/>
+          <SignalIndicator angle={false}/>
         </div>
         <div className="flex flex-col ml-5 w-[40%] max-md:ml-0 max-md:w-full">
           <div className="flex flex-col justify-center self-stretch my-auto text-white max-md:mt-10">
