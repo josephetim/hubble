@@ -85,7 +85,7 @@ export default function LandingPage() {
                 Extensive Reach
               </div>
               <div className="mt-2 font-light text-xl font-medium leading-8">
-                Hubble's expansive network of taxis guarantees maximum
+                Hubble&apos;s expansive network of taxis guarantees maximum
                 visibility across busy city routes, reaching millions of
                 potential customers daily.
               </div>
@@ -113,7 +113,7 @@ export default function LandingPage() {
                 Data-Driven Decisions
               </div>
               <div className="mt-2 font-light text-xl font-medium leading-8">
-                Don't advertise blindly. Hubble provides valuable insights on
+                Don&apos;t advertise blindly. Hubble provides valuable insights on
                 estimated commuters and trending events in your target areas.
                 Leverage this data to optimize your campaigns for maximum
                 impact.
@@ -177,6 +177,7 @@ export default function LandingPage() {
       <div className="flex gap-5 max-md:flex-col max-md:gap-0">
         <div className="flex flex-col w-[64%] max-md:ml-0 max-md:w-full">
           <Image
+            alt="maps"
             loading="lazy"
             src={mapAd}
             className="grow w-full aspect-[1.23] max-md:mt-10 max-md:max-w-full"
@@ -211,7 +212,7 @@ export default function LandingPage() {
             <div className="mt-4 text-xl font-light leading-8">
               With a large (37’’ x 12’’) fullscreen display, Our rooftop
               displays are built to withstand even the harshest weather
-              conditions, ensuring your brand's message is delivered
+              conditions, ensuring your brand&apos;s message is delivered
               consistently.
             </div>
           </div>
