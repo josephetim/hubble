@@ -19,7 +19,7 @@ export default function LandingPage() {
 
         <div style={{fontFamily: "Darker Grotesque"}} className="bg-black relative">
        
-       <div className="flex overflow-hidden relative flex-col items-center px-20 pt-12 pb-20 w-full font-bold text-white leading-[110%] min-h-[816px] max-md:px-5 max-md:max-w-full">
+       <div className="flex overflow-hidden relative flex-col items-center px-10 pt-10 pb-20 w-full font-bold text-white leading-[110%] min-h-[816px] max-md:px-5 max-md:max-w-full">
       
      <Image
        alt="background-image"
@@ -31,14 +31,14 @@ export default function LandingPage() {
    
      
      
-     <div className="relative font-normal mt-[200px] text-7xl text-center leading-[64.8px] max-md:mt-10 max-md:max-w-full max-md:text-4xl">
+     <div className="relative font-bold mt-[180px] text-7xl text-center leading-[64.8px] max-md:mt-10 max-md:max-w-full max-md:text-4xl">
        Reach Thousands. Every Day. With Hubble{" "}
      </div>
      <div className="relative mt-9 text-3xl font-thin leading-9 text-center w-[1024px] max-md:max-w-full">
        Dominate busy city routes and captivate your target audience with
-       eye-catching rooftop displays.
+       eye-catching <br/> rooftop displays.
      </div>
-     <div className="relative justify-center font-normal px-8 pt-4 pb-5 mt-9 mb-40 text-2xl bg-blue-700 rounded-[100px] max-md:px-5 max-md:mb-10">
+     <div className="relative justify-center font-bold px-10 pt-4 pb-5 mt-9 mb-40 text-2xl bg-blue-700 rounded-[100px] max-md:px-5 max-md:mb-10">
        Advertise with Hubble
      </div>
    </div>
@@ -140,15 +140,15 @@ export default function LandingPage() {
        </div>
    </div>
    <div className="flex align-center justify-center mt-[144px]">
-   <div className="self-center text-7xl mb-[112px] font-bold text-center text-white leading-[65px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-10">
-         Hubble: A better way to place ads that actually converts
+   <div className="self-center text-[72px] mb-[112px] font-bold text-center text-white leading-[65px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-10">
+         Hubble: A better way to place ads that <br/>actually converts
        </div>
        
    </div>
    <div className="flex align-center justify-center">
    <div className="flex justify-center items-center px-16  w-full max-md:px-5 max-md:mt-10 max-md:max-w-full">
          <div className="w-full max-w-[1120px] max-md:max-w-full">
-           <div className="flex align-center justify-between max-md:flex-col max-md:gap-0">
+           <div className="flex align-center gap-[106px] max-md:flex-col max-md:gap-0">
              <div className="flex flex-col w-[410px]  max-md:ml-0 max-md:w-[422px]">
                <div className="flex flex-col w-[410px]  justify-center self-stretch my-auto text-white max-md:mt-10">
                  <div className="text-4xl font-bold leading-9 text-left">
@@ -176,7 +176,7 @@ export default function LandingPage() {
    </div>
    <div className="flex mt-[64px] align-center justify-center">
    <div className="w-full  max-w-[1120px] max-md:max-w-full">
-         <div className="flex align-center justify-between max-md:flex-col max-md:gap-0">
+         <div className="flex align-center gap-[106px] max-md:flex-col max-md:gap-0">
            <div className="flex relative flex-col w-[512px] max-md:ml-0 max-md:w-full">
              <Image
                alt="maps"
@@ -207,7 +207,7 @@ export default function LandingPage() {
    </div>
    <div className="flex mt-[64px] align-center justify-center">
    <div className="w-full max-w-[1120px] max-md:max-w-full">
-         <div className="flex align-center justify-between max-md:flex-col max-md:gap-0">
+         <div className="flex align-center gap-[106px] max-md:flex-col max-md:gap-0">
            <div className="flex flex-col w-[410px] max-md:ml-0 max-md:w-full">
              <div className="flex flex-col justify-center self-stretch my-auto text-white max-md:mt-10">
                <div className="text-4xl font-bold leading-9 text-left">
@@ -233,9 +233,9 @@ export default function LandingPage() {
          </div>
        </div>
    </div>
-   <div className="flex mt-[111.1px] mb-[72px] align-center justify-center">
+   <div className="flex mt-[111.1px]  align-center justify-center">
    <div className="flex flex-col w-full max-w-[1200px] max-md:max-w-full">
-         <div className="mx-8 text-[72px] font-bold  text-center text-white leading-[64.8px] max-md:mr-2.5 max-md:max-w-full max-md:text-4xl">
+         <div className="mx-6 text-[72px] font-bold  text-center text-white leading-[64.8px] max-md:mr-2.5 max-md:max-w-full max-md:text-4xl">
            We’re in Lekki & Uyo, coming soon to you
          </div>
          <div className="justify-between mt-20 max-md:mt-10 max-md:max-w-full">
@@ -270,7 +270,7 @@ export default function LandingPage() {
          </div>
          <div className="flex flex-col justify-center p-14 mt-20 bg-blue-800 rounded-[48px] max-md:px-5 max-md:mt-10 max-md:max-w-full">
            <div className="flex gap-5 justify-between w-full max-md:flex-wrap max-md:max-w-full">
-             <div className="my-auto font-normal text-4xl leading-9 text-white max-md:max-w-full">
+             <div className="my-auto font-bold text-4xl leading-9 text-white max-md:max-w-full">
                Notify me when Hubble is in my city
              </div>
              <div className="flex gap-2 text-xl max-md:flex-wrap max-md:max-w-full">
@@ -279,7 +279,7 @@ export default function LandingPage() {
                />
                  
                
-               <div className="justify-center font-normal text-center self-start px-6 pt-3 pb-4 text-white bg-blue-700 leading-[110%] rounded-[100px] max-md:px-3">
+               <div className="justify-center font-bold text-center self-start px-6 pt-3 pb-4 text-white bg-blue-700 leading-[110%] rounded-[100px] max-md:px-3">
                  Notify Me
                </div>
              </div>
@@ -288,7 +288,7 @@ export default function LandingPage() {
        </div>
    </div>
    <div className="flex align-center justify-center ">
-   <div className="flex flex-col justify-between items-center px-16 pt-20 pb-10 w-full text-xl font-medium leading-8 text-white bg-transparent max-md:px-5 max-md:max-w-full">
+   <div className="flex flex-col justify-between items-center px-16 pt-[72px] pb-10 w-full text-xl font-medium leading-8 text-white bg-transparent max-md:px-5 max-md:max-w-full">
          <div className="flex gap-5 justify-between w-full max-w-[1200px] max-md:flex-wrap max-md:max-w-full">
            <div className="flex flex-col">
              <Image
@@ -303,16 +303,16 @@ export default function LandingPage() {
              2024. All Rights Reserved
            </div>
            <div className="flex flex-col justify-center self-start mt-1">
-             <div className="flex gap-3 whitespace-nowrap">
+             <div className="flex justify-between gap-3 whitespace-nowrap">
                <Image
                  alt="message"
                  loading="lazy"
                  src={message}
                  className="shrink-0 my-auto w-6 aspect-square"
                />
-               <div className="font-light">info@hubblehq.ad</div>
+               <div className="font-light text-right">info@hubblehq.ad</div>
              </div>
-             <div className="flex gap-3 mt-2">
+             <div className="flex justify-between gap-3 mt-2">
                <Image
                  alt="phone"
                  loading="lazy"
