@@ -1,0 +1,14 @@
+.transparent {
+    background-color: transparent;
+    color: white;
+    transition: background-color 0.3s ease;
+    z-index: 1000; /* Ensure the header is above other content */
+  }
+  
+ .black {
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s ease;
+    z-index: 1000; /* Ensure the header is above other content */
+  }
+ 
