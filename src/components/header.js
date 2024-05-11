@@ -25,7 +25,7 @@ export default function Header() {
         
     }, []);
     return (
-        <div className={`flex top-[32px] z-40  fixed gap-5 justify-between py-[12px] px-[16px] w-full text-xl font-semibold border-2 border-solid backdrop-blur-[5px]  bg-opacity-0.5 border-neutral-700 max-w-[1200px] w-[1200px] rounded-[100px] max-md:flex-wrap max-md:max-w-full max-sm:pl-1 max-sm:-mt-1 max-sm:border-none  `}>
+        <div className={`flex top-[32px] z-40  gap-5 justify-between py-[12px] px-[16px] w-full text-xl font-semibold border-2 border-solid backdrop-blur-[5px]  bg-opacity-0.5 border-neutral-700 max-w-[1200px] w-[1200px] rounded-[100px] max-md:flex-wrap max-md:max-w-full max-sm:pl-1 max-sm:-mt-1 max-sm:border-none  `}>
              
       <Image
         loading="lazy"
