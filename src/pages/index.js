@@ -19,7 +19,7 @@ export default function LandingPage() {
 
         <div style={{fontFamily: "Darker Grotesque"}} className="bg-black relative">
        
-       <div className="flex overflow-hidden relative flex-col items-center px-10 pt-10 pb-20 w-full font-bold text-white leading-[110%] min-h-[816px] max-md:px-5 max-md:max-w-full">
+       <div className="flex z-20 overflow-hidden relative flex-col items-center px-10 pt-10 pb-20 w-full font-bold text-white leading-[110%] min-h-[816px] max-md:px-5 max-md:max-w-full">
       
      <Image
        alt="background-image"
