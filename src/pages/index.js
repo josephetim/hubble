@@ -274,7 +274,7 @@ export default function LandingPage() {
                Notify me when Hubble is in my city
              </div>
              <div className="flex gap-2 text-xl max-md:flex-wrap max-md:max-w-full">
-               <input className="items-start px-8 font-light pt-2.5 pb-4 text-gray-400 bg-white border border-gray-300 border-solid shadow-sm leading-[120%] rounded-[80px] max-md:px-5"
+               <input className="items-start px-8 font-medium pt-2.5 pb-4 text-[#7F848C] bg-white border border-gray-300 border-solid shadow-sm leading-[120%] rounded-[80px] max-md:px-5"
                placeholder="Enter email address"
                />
                  
