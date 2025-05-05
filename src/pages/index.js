@@ -46,7 +46,7 @@ export default function LandingPage() {
             <div className="flex flex-col w-full md:w-6/12">
               <div className="flex flex-col justify-center self-stretch my-auto text-white">
                 <div className="text-3xl sm:text-5xl md:text-[64px] font-bold text-left leading-tight md:leading-[57.6px]">
-                  What's Hubble?
+                  What&apos;s Hubble?
                 </div>
                 <div className="mt-4 sm:mt-6 font-normal text-lg sm:text-[20px] leading-7 sm:leading-8">
                   Hubble is a revolutionary mobile advertising platform that
@@ -221,7 +221,7 @@ export default function LandingPage() {
                   Weatherproof Tech
                 </div>
                 <div className="mt-4 font-light text-lg sm:text-xl leading-7 sm:leading-8 text-center md:text-left">
-                  With a large (37'' x 12'') fullscreen display, Our rooftop
+                  With a large (37&apos;&apos; x 12&apos;&apos;) fullscreen display, Our rooftop
                   displays are built to withstand even the harshest weather
                   conditions, ensuring your brand&apos;s message is delivered
                   consistently.
@@ -246,7 +246,7 @@ export default function LandingPage() {
       <div className="flex mt-20 sm:mt-[111.1px] align-center justify-center px-4">
         <div className="flex flex-col w-full max-w-[1200px]">
           <div className="text-3xl sm:text-5xl md:text-[72px] font-bold text-center text-white leading-tight md:leading-[64.8px] px-2">
-            We're in Lekki & Uyo, coming soon to you
+            We&apos;re in Lekki & Uyo, coming soon to you
           </div>
           <div className="mt-10 sm:mt-20">
             <div className="flex flex-col md:flex-row gap-6 md:gap-5">
